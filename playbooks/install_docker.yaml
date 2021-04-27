@@ -1,9 +1,0 @@
----
-
-- hosts: all
-  tasks:
-    - name: Installing Docker and firewalld
-      command: |
-        amazon-linux-extras install docker
-      become: true
-

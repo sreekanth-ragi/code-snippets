@@ -1,7 +1,0 @@
----
-
-- hosts: all
-  tasks:
-    - name: update yum
-      command: yum update -y
-      become: true
